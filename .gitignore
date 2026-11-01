@@ -1,0 +1,12 @@
+# Downloaded packages 
+node_modules/
+
+#database file
+*.db
+
+# Files made by "npm run build"
+dist/
+
+# Junk files from Mac and editors
+.DS_Store
+*.log

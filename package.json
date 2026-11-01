@@ -1,0 +1,12 @@
+{
+  "name": "shelf",
+  "private": true,
+  "description": "Shelf — a reading log (Full Stack Decal: APImagination)",
+  "scripts": {
+    "setup": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -n server,client -c magenta,cyan \"npm run dev --prefix server\" \"npm run dev --prefix client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
